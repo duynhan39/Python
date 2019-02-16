@@ -71,7 +71,7 @@ def print_top(filename):
   d = hF(filename)
   d = sorted(d.items(), key=get_value)
 
-  for i in range(20):
+  for i in range(40):
     if i <= len(d):
       print d[-i-1][0] + ' ' + str(d[-i-1][1])
 
